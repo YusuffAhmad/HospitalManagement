@@ -16,7 +16,8 @@ namespace Hospital_Management
                 Console.WriteLine($"+++++++++++++++++ LOGIN PAGE ++++++++++++++++++");
                 Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
                 Console.ForegroundColor = ConsoleColor.White;
-                Console.WriteLine("Press for Patient Log in an 2 for staff Log in");
+                Console.WriteLine();
+                Console.WriteLine("Press 1 for Patient Log in an 2 for staff Log in and 3 to go back to the main menu");
                 var request = int.Parse(Console.ReadLine());
 
                 switch (request)
@@ -26,6 +27,9 @@ namespace Hospital_Management
                         break;
                     case 2:
                         StaffLogIn();
+                        break;
+                    case 3:
+                        MainMenu.Mainmenu();
                         break;
                     default:
                         Console.WriteLine("Invalid input");
@@ -42,6 +46,7 @@ namespace Hospital_Management
             Console.WriteLine($"++++++++++++++ PATIENT LOG IN PAGE ++++++++++++++");
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
             Console.WriteLine("Are you a registered Patient? if yes enter 1 and if no enter 2 ");
             var condition = int.Parse(Console.ReadLine());
             if (condition == 1)
@@ -67,7 +72,12 @@ namespace Hospital_Management
             {
                 Console.WriteLine("Invalid input");
             }
-
+            Console.WriteLine("Press 1 to go back to the main menu");
+            var menu = int.Parse(Console.ReadLine());
+            if (menu == 1)
+            {
+                MainMenu.Mainmenu();
+            }
         }
         public static void StaffLogIn()
         {
@@ -77,7 +87,8 @@ namespace Hospital_Management
             Console.WriteLine($"++++++++++++++ STAFF LOG IN PAGE ++++++++++++++");
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.ForegroundColor = ConsoleColor.White;
-            Console.WriteLine("Are you a Staff? if yes enter 1 and if no enter 2 ");
+            Console.WriteLine();
+            Console.WriteLine("Are you a Staff? if yes enter 1 and if no enter 2 and 3 to go back to the main menu");
             var condition = int.Parse(Console.ReadLine());
             if (condition == 1)
             {
@@ -91,6 +102,9 @@ namespace Hospital_Management
                     case 2:
                         NurseLogIn();
                         break;
+                    case 3:
+                        MainMenu.Mainmenu();
+                        break;
                     default:
                         Console.WriteLine("Invalid Input");
                         break;
@@ -99,6 +113,10 @@ namespace Hospital_Management
             else if (condition == 2)
             {
                 Console.WriteLine("Sorry, Only Staffs are allowed to Use this Platform");
+            }
+            else if (condition == 3)
+            {
+                MainMenu.Mainmenu();
             }
             else
             {
@@ -114,7 +132,9 @@ namespace Hospital_Management
             Console.WriteLine($"+++++++ WELCOME TO THE PRAISED HOSPITAL +++++++");
             Console.WriteLine($"+++++++++++ DOCTOR LOG IN PAGE ++++++++++++++++");
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("Are you a Doctor? if yes enter 1 and if no enter 2 ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
+            Console.WriteLine("Are you a Doctor? if yes enter 1 and if no enter 2 and 3 to go back to the main menu");
             var condition = int.Parse(Console.ReadLine());
             if (condition == 1)
             {
@@ -136,6 +156,10 @@ namespace Hospital_Management
             {
                 Console.WriteLine("Sorry, Only Doctor is allowed to Use this Platform");
             }
+            else if (condition == 3)
+            {
+                MainMenu.Mainmenu();
+            }
             else
             {
                 Console.WriteLine("Invalid Input");
@@ -148,7 +172,9 @@ namespace Hospital_Management
             Console.WriteLine($"+++++++ WELCOME TO THE PRAISED HOSPITAL +++++++");
             Console.WriteLine($"+++++++++++ NURSE LOG IN PAGE ++++++++++++++++");
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("Are you a Nurse? if yes enter 1 and if no enter 2 ");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
+            Console.WriteLine("Are you a Nurse? if yes enter 1 and if no enter 2 and 3 to go back to the main menu");
             var condition = int.Parse(Console.ReadLine());
             if (condition == 1)
             {
@@ -169,6 +195,10 @@ namespace Hospital_Management
             else if (condition == 2)
             {
                 Console.WriteLine("Sorry, Only Nurse is allowed to Use this Platform");
+            }
+            else if (condition == 3)
+            {
+                MainMenu.Mainmenu();
             }
             else
             {

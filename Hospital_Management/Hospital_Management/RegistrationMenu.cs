@@ -20,7 +20,9 @@ namespace Hospital_Management
                 Console.WriteLine("\t1. Patient Registration");
                 Console.WriteLine("\t2. Patient Addmission Registration");
                 Console.WriteLine("\t3. staff Registration");
-                
+                Console.WriteLine("\t4. Back To Main Menu");
+
+
 
                 var request = Convert.ToInt32(Console.ReadLine());
 
@@ -34,6 +36,9 @@ namespace Hospital_Management
                         break;
                     case 3:
                         StaffRegistration.PrintStaffRegistration();
+                        break;
+                    case 4:
+                        MainMenu.Mainmenu();
                         break;
                     default:
                         Console.WriteLine("Invalid input");

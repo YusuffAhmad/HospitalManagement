@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OLALEKAN\\source\\repos\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj": {}
+    "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OLALEKAN\\source\\repos\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj": {
+    "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OLALEKAN\\source\\repos\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj",
+        "projectUniqueName": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj",
         "projectName": "Hospital_Management",
-        "projectPath": "C:\\Users\\OLALEKAN\\source\\repos\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj",
+        "projectPath": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Hospital_Management\\Hospital_Management\\Hospital_Management.csproj",
         "packagesPath": "C:\\Users\\OLALEKAN\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OLALEKAN\\source\\repos\\Hospital_Management\\Hospital_Management\\obj\\",
+        "outputPath": "C:\\Users\\OLALEKAN\\Desktop\\MyFiles\\Hospital_Management\\Hospital_Management\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

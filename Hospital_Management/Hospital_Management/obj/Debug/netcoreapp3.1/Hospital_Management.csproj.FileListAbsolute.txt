@@ -11,3 +11,16 @@ C:\Users\OLALEKAN\source\repos\Hospital_Management\Hospital_Management\obj\Debug
 C:\Users\OLALEKAN\source\repos\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.dll
 C:\Users\OLALEKAN\source\repos\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.pdb
 C:\Users\OLALEKAN\source\repos\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.genruntimeconfig.cache
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\bin\Debug\netcoreapp3.1\Hospital_Management.exe
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\bin\Debug\netcoreapp3.1\Hospital_Management.deps.json
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\bin\Debug\netcoreapp3.1\Hospital_Management.runtimeconfig.json
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\bin\Debug\netcoreapp3.1\Hospital_Management.runtimeconfig.dev.json
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\bin\Debug\netcoreapp3.1\Hospital_Management.dll
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\bin\Debug\netcoreapp3.1\Hospital_Management.pdb
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.csprojAssemblyReference.cache
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.AssemblyInfoInputs.cache
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.AssemblyInfo.cs
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.csproj.CoreCompileInputs.cache
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.dll
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.pdb
+C:\Users\OLALEKAN\Desktop\MyFiles\Hospital_Management\Hospital_Management\obj\Debug\netcoreapp3.1\Hospital_Management.genruntimeconfig.cache

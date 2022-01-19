@@ -85,12 +85,12 @@ namespace Hospital_Management
             Console.WriteLine($"+++++++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine($"+++++++++ REGISTRATION SUCCESSFUL ++++++++++++");
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine();
             Console.WriteLine($"{NamePreFix}.{Name}, Your Registration ID is {RegistrationID}");
             Console.WriteLine($"Full Name: {Name}\tAge: {Age}\tPhone Number: {PhoneNumber}\nEmail Address: {EmailAddress}\tSex: " +
                 $"{Sex}\tHeight: {Height}\nWeight: {Weight}\tTemperature: {Temperature}\nBlood Group: " +
                 $"{BloodGroup}\tNature of Scickness: {NatureOfSickness}");
-
-            Console.WriteLine("Press Enter to return to the Menu");
         }
 
         public static void PatientRegistration()
@@ -149,6 +149,13 @@ namespace Hospital_Management
 
             Patient patient = new Patient(fullNmae, age, phoneNumber, email, sex, nameprefix, height, weight, temperature, bloodGroup, bloodType, natureOfSickness, sicknessLevel);
             patient.PrintPatientRegDetails();
+            Console.WriteLine();
+            Console.WriteLine(".......Press 1 to go back to the main menu");
+            var menu = int.Parse(Console.ReadLine());
+            if (menu == 1)
+            {
+                MainMenu.Mainmenu();
+            }
         }
         public static void PrintPatient()
         {

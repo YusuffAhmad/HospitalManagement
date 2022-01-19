@@ -13,7 +13,9 @@ namespace Hospital_Management
             Console.WriteLine($"+++++++ WELCOME TO THE PRAISED HOSPITAL +++++++");
             Console.WriteLine($"+++++++++++ PATIENT DISCHARGE CENTER +++++++++++");
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
-            Console.WriteLine("Are you a Doctor? if yes enter 1 and if no enter 2 ");
+            Console.ForegroundColor = ConsoleColor.Blue; 
+            Console.WriteLine();
+            Console.WriteLine("Are you a Doctor? if yes enter 1 and if no enter 2 and 3 to go back to the main menu");
             var condition = int.Parse(Console.ReadLine());
             if (condition == 1)
             {
@@ -48,10 +50,21 @@ namespace Hospital_Management
             {
                 Console.WriteLine("Sorry, Only Doctor is allowed to discharge patients");
             }
+            else if (condition == 3)
+            {
+                MainMenu.Mainmenu();
+            }
             else
             {
                 Console.WriteLine("Invalid Input");
 
+            }
+
+            Console.WriteLine("Press 1 to go back to the main menu");
+            var menu = int.Parse(Console.ReadLine());
+            if (menu == 1)
+            {
+                MainMenu.Mainmenu();
             }
             Console.ReadKey();
         }

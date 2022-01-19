@@ -52,7 +52,7 @@ namespace Hospital_Management
             Console.WriteLine($"++++++++++++++++++++++++++++++++++++++++++++++++");
             Console.WriteLine($"{NamePreFix}.{Name}, Your Registration ID is {RegistrationID}");
 
-            Console.WriteLine("Press Enter to return to the Menu");
+            Console.WriteLine("Press Enter to return to the Registration Menu");
         }
         public static void NurseRegistration()
         {
@@ -86,6 +86,13 @@ namespace Hospital_Management
             var level = (NurseLevel)int.Parse(Console.ReadLine());
             Nurse doctor = new Nurse(fullName, age, phoneNumber, email, sex, nameprefix, level);
             doctor.PrintNurseRegDetails();
+
+            Console.WriteLine("Press 1 to go back to the main menu");
+            var menu = int.Parse(Console.ReadLine());
+            if (menu == 1)
+            {
+                MainMenu.Mainmenu();
+            }
         }
     }
     public enum NurseLevel
